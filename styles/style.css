@@ -1,0 +1,247 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+#home{
+    background-image: url(../img/accueil.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full-space{
+    min-height: 100vh;
+}
+.navbar{
+    position: sticky;
+    top: 2%;
+    width: 100%;
+    z-index: 30;
+}
+.navbar>nav{
+    cursor: pointer;
+    height: 64px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    width: 64px;
+    z-index: 2;
+    border-radius: 5px;
+}
+#menu{
+    background: white;
+    height: .5rem;
+    margin-left: .75rem;
+    margin-top: 1.75rem;
+    width: 2.5rem;
+    border-radius: 20px;
+}
+#menu::before, #menu::after {
+    background: white;
+    content: '';
+    display: block;
+    height: .5rem;
+    width: 2.5rem;
+    border-radius: 20px;
+}
+#menu::after {
+    transform: translateY(0.25rem);
+  }
+#menu::before {
+    transform: translateY(-0.75rem);
+  }
+#menu-title{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    z-index: -1;
+    color: white;
+}
+#home-text{
+    background: rgba(0,0,0,0.4);
+    height: 100vh;
+    z-index: 0;
+    display: flex;
+}
+#home-text>div {
+    padding: 40px 80px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 15px;
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+#home-text>div * {
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+#wulkan{
+   background-image: url(../img/wulkan.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    background-attachment: fixed;
+
+}
+#wulkan>div>div>h2{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+#wulkan-info{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+#logo{
+    height: 50%;
+    margin: auto;
+    display: flex;
+}
+#logo-image{
+    width: 25%;
+    max-height: 100%;
+    margin: auto;
+}
+#wulkan-text{
+    width: 75%;
+    margin:auto;
+}
+#wulkan-text>p{
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 23px;
+    color: white;
+    font-weight: 500;
+}
+.filtre-noir{
+    background: rgba(0,0,0,0.8);
+    min-height: 100vh;
+    padding-top: 35px;
+}
+.button {
+    margin-top: 20px;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 23px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.button:hover{
+    color: black!important;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+#membres{
+    background-color: black;
+}
+#zone-membres{
+    padding-top: 25px;
+    width: 100%;
+}
+#zone-membres>h2{
+    color: white;
+    text-align: center;
+}
+#zone-membres>h3{
+    color: white;
+    text-align: center;
+}
+#membres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-membre{
+    flex: 50%;
+    max-width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.box-membre>img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+.box-membre>p{
+    color: white;
+}
+#spectacle{
+    background-image: url(../img/spectacle.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#arkana{
+  display: flex;
+  justify-content: center;
+}
+#arkana>img{
+    width: 500px;
+    max-width: 100%;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+form> div{
+    display: block;
+}
+form>label{
+    color: white;
+}
+form>input, form>textarea{
+    border: none;
+    background: rgb(40,40,40);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+footer{
+    text-align: center;
+    background: #333333;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    font: 14px/1.7 "Source Sans Pro", sans-serif;
+}
+footer>div>a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.reseaux {
+    width: 35px;
+    vertical-align: middle;
+}
+.legal {
+    font: 14px/1.7 "Source Sans Pro", sans-serif;
+    color: white;
+    vertical-align: middle;
+}
