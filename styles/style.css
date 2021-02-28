@@ -139,6 +139,7 @@ body{
     font-size: 23px;
     text-decoration: none;
     transition: 0.3s;
+    text-align: center;
 }
 .button:hover{
     color: black!important;
@@ -243,5 +244,10 @@ footer>div>a{
 .legal {
     font: 14px/1.7 "Source Sans Pro", sans-serif;
     color: white;
+    vertical-align: middle;
+}
+.agence{
+    width: 70px;
+    margin: 10px;
     vertical-align: middle;
 }
