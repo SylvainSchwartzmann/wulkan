@@ -1,0 +1,26 @@
+#wulkan-info{
+    display: block;
+}
+#logo-image {
+    width: 12%;
+}
+.box-membre {
+    flex: 25%;
+    max-width: 25%;
+}
+nav{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>h1{
+    display: none;
+}
+.menu{
+    margin: 0px;
+}
+.container{
+    max-width: 80%;
+}
