@@ -6,15 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" href="styles/ordi.css" media="screen and (min-width: 1000px)">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <title>Compagnie Wulkan</title>
 </head>
 <body>
+    <nav >
+        <h1>Menu</h1>
+        <h2><a onclick="menu()" href="#">Retour en haut</a></h1>
+        <h2><a onclick="menu()" href="#wulkan">Compagnie</a></h2>
+        <h2><a onclick="menu()" href="#membres">Membres</a></h2>
+        <h2><a onclick="menu()" href="#spectacle">Spectacle</a></h2>
+        <h2><a onclick="menu()" href="#Presse">Presse</a></h2>
+        <h2><a onclick="menu()"href="#contact">Contact</a></h1>
+    </nav>
     <section class="full-space" id="home">
-        <div class="navbar">
-            <nav>
-                <div id="menu"></div>
-                <h2 id="menu-title">Menu</h2>
-            </nav>
+        <div class="menu" onclick="menu()">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h3>Menu</h3>
         </div>
         <div id="home-text">
             <div>
@@ -42,7 +54,7 @@
                         étincelante entre les membres et d’une envie de transmettre et de faire
                         connaître cette pratique insolite au grand public.</p>
                     <p>
-                        <a class="button" href="#">Découvrez ces artistes</a>
+                        <a class="button" href="#membres">Découvrez ces artistes</a>
                     </p>
                 </div>
             </div>
@@ -116,14 +128,18 @@
             </form>
         </div>
     </section>
-    <footer>
+    <footer id="footer">
         <div>
 			<a href="pages/facebook.html"><img src="img/facebook.webp" class="reseaux" alt="facebook"></a>
-			<a class="legal" href="pages/mention_legal.html">Mentions légales</a>
-			<a class="legal" href="pages/plan_du_site.html">Plan du site</a>
+			<a class="legal" href="mentions-legales.html">Mentions légales</a>
+			<a class="legal" href="plan.html">Plan du site</a>
 			<img alt="logo" class="agence" src="img/logo_agence.png">
 		</div>
     </footer>
-    
+    <script>
+         function menu(){
+				document.querySelector("nav").classList.toggle("ouvert");
+			}
+    </script>
 </body>
 </html>
