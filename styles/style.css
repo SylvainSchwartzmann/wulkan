@@ -6,7 +6,7 @@ body{
     background-color: black;
 }
 #home{
-    background-image: url(../img/accueil.jpg);
+    background-image: url(../img/accueil2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ h1{
   justify-content: center;
   position: relative;
 }
-#arkana>img{
+#arkana img{
     width: 500px;
     max-width: 100%;
     height: auto;
@@ -334,4 +334,7 @@ a{
 }
 .hide-text:hover{
     opacity: 1;
+}
+#presse iframe{
+    display: none;
 }

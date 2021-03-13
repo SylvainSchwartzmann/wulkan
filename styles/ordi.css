@@ -24,3 +24,9 @@ nav>h1{
 .container{
     max-width: 80%;
 }
+#presse iframe{
+    display: inherit;
+}
+#presse img{
+    display: none;
+}
