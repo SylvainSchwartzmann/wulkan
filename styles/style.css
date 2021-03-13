@@ -4,6 +4,7 @@ html{
 body{
     margin: 0;
     background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 #home{
     background-image: url(../img/accueil2.jpg);
@@ -147,6 +148,17 @@ body{
     background-size: cover;
     z-index: -2;
     background-attachment: fixed;
+}
+#spectacle p{
+    color: white;
+}
+.spectacle-text{
+    max-width: 75%;
+    margin: auto;
+    text-align: justify;
+}
+.spectacle-text strong{
+    color: #ed6d1a;
 }
 h1{
     color: white;
